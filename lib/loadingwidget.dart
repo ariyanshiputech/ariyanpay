@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
 class LoadingWidget extends StatelessWidget {
-  const LoadingWidget({Key? key}) : super(key: key);
+  const LoadingWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class LoadingWidget extends StatelessWidget {
                     ),
                     child: Center(
                     child: Lottie.asset(
-                          'assets/logos/round_loading.json',
+                          'assets/json/round_loading.json',
                           repeat: true, // Set repeat to false to play only once
                         ),
                     ),

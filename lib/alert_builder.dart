@@ -23,12 +23,11 @@ class AlertBuilder {
                     ),
                     child: Center(
                     child: Lottie.asset(
-                          'assets/logos/round_loading.json',
+                          'assets/json/round_loading.json',
                           repeat: true, // Set repeat to false to play only once
                         ),
                     ),
                     ),
-                  
             ),
           ),
         );
@@ -37,8 +36,6 @@ class AlertBuilder {
   }
 
   // Method to hide the loading dialog
-  
-  
   static void hideLoadingDialog(BuildContext context) {
     Navigator.of(context, rootNavigator: true).pop();
   }

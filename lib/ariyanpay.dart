@@ -1,7 +1,3 @@
-// ignore_for_file: use_build_context_synchronously
-
-library ariyanpay;
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ariyanpay/controllers/payment_controller.dart';
